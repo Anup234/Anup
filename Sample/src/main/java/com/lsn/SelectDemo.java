@@ -22,7 +22,7 @@ public class SelectDemo {
 			System.out.println(obj);
 			*/
 			DBCursor query=collection.find();
-		//	DBObject obj=collection.findAndModify(query, update);
+		
 			/*DBCursor cursor=collection.find();
 			while(cursor.hasNext()){
 				System.out.println(cursor.next());
